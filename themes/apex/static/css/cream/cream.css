@@ -13,6 +13,14 @@ body {
 
 .header {
   border-bottom: 1px solid #ccc;
+  border-top-color: #A7A6A1;
+  background: #FCFAF2;
+}
+.header > div {
+  background: rgba(223, 221, 212, 0.7);
+}
+.header a:hover, .header a:active, .header a:focus {
+  color: #C90707;
 }
 
 a {
@@ -63,5 +71,3 @@ a {
 .widget-archive-monthly .widget-list__item a {
   background: #EFEDE6;
 }
-
-/*@ sourceMappingURL=cream.css.map */

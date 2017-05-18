@@ -15,10 +15,20 @@ a {
 }
 
 .header {
-  padding-bottom: 16px;
+  border-top: none;
+  padding-top: 5px;
   background-size: 200px 20px;
+  
   & > div {
     background: #fff;
+  }
+
+  a {
+    &:hover,
+    &:active,
+    &:focus {
+      color: #C90707;
+    }
   }
 }
 

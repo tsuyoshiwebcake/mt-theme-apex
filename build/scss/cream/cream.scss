@@ -14,6 +14,20 @@ body {
 
 .header {
   border-bottom: 1px solid #ccc;
+  border-top-color: #A7A6A1;
+  background: #FCFAF2;
+
+  & > div {
+    background: rgba(223, 221, 212, 0.7);
+  }
+
+  a {
+    &:hover,
+    &:active,
+    &:focus {
+      color: #C90707;
+    }
+  }
 }
 
 a {

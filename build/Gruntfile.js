@@ -7,7 +7,7 @@ module.exports = function (grunt) {
   grunt.initConfig({
     watch: {
       css: {
-        files: 'scss/**.scss',
+        files: ['scss/*.scss', 'scss/**/*.scss'],
         tasks: ['compass:build']
       },
     },

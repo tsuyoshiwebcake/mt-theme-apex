@@ -26,10 +26,18 @@ a {
 
 .header {
   border-bottom: 1px solid #398582;
+  border-top-color: #9BE51C;
+  background: #4FB3AF;
+
   .header-content {
     h1 {
       a {
         color: #135654;
+        &:hover,
+        &:focus,
+        &:active {
+          color: #F7F71E;
+        }
       }
     }
   }

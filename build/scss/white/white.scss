@@ -3,9 +3,23 @@ name: Apex (White)
 designer: Six Apart, Ltd.
 designer_url: http://www.sixapart.com/
 */
+@import "compass/css3/images";
 
 .header {
   border-bottom: 1px solid #ccc;
+  background: #fff;
+
+  & > div {
+    background: none repeat scroll 0px 0px rgba(255, 255, 255, 0.95);
+  }
+
+  a {
+    &:hover,
+    &:active,
+    &:focus {
+      color: #C90707;
+    }
+  }
 }
 
 .footer {

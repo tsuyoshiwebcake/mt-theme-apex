@@ -8,7 +8,7 @@ This theme requires:
 
 * Movable Type 6 or higher
 
-##Key Features
+## Key Features
 * Minimalist Styling
 * Incremental pagination with Ajax
 * Responsive Web Design
