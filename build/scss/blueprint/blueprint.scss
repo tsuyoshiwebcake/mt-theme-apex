@@ -4,8 +4,6 @@ designer: Six Apart, Ltd.
 designer_url: http://www.sixapart.com/
 */
 
-@import "compass/css3/images";
-
 body {
   background: #2BA3D4;
   color: #ffffff;
@@ -151,7 +149,7 @@ a {
   }
   .form-item-captcha {
     background: #5BB9E1;
-    @include background-image(linear-gradient(90deg, transparent 50%, transparent 50%), linear-gradient(135deg, rgba(#73c0e1, 0.5) 25%, transparent 25%, transparent 50%, rgba(#73c0e1, 0.5) 50%, rgba(#73c0e1, 0.5) 75%, transparent 75%, transparent));
+    background-image: linear-gradient(90deg, transparent 50%, transparent 50%), linear-gradient(135deg, rgba(#73c0e1, 0.5) 25%, transparent 25%, transparent 50%, rgba(#73c0e1, 0.5) 50%, rgba(#73c0e1, 0.5) 75%, transparent 75%, transparent);
     background-size: 100% 100%, 100px 100px;
     input[type="text"] {
       border-color: #C0E5F5;

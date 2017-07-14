@@ -8,17 +8,8 @@ module.exports = function (grunt) {
     watch: {
       css: {
         files: ['scss/*.scss', 'scss/**/*.scss'],
-        tasks: ['compass:build']
+        tasks: ['sass-convert']
       },
-    },
-    compass: {
-      build: {
-        options: {
-          noLineComments: true,
-          sassDir: 'scss',
-          cssDir: '../themes/apex/static/css'
-        }
-      }
     },
     'sass-convert': {
       scss: {
@@ -31,6 +22,5 @@ module.exports = function (grunt) {
 
   grunt.registerTask('build', [
     'sass-convert',
-    'compass:build'
   ]);
 };
