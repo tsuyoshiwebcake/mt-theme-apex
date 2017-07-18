@@ -5,15 +5,11 @@ designer_url: http://www.sixapart.com/
 */
 .header {
   border-bottom: 1px solid #ccc;
-  background: #fff;
-}
-.header > div {
-  background: none repeat scroll 0px 0px rgba(255, 255, 255, 0.95);
-}
-.header a:hover, .header a:active, .header a:focus {
-  color: #C90707;
-}
+  background: #fff; }
+  .header > div {
+    background: none repeat scroll 0px 0px rgba(255, 255, 255, 0.95); }
+  .header a:hover, .header a:active, .header a:focus {
+    color: #C90707; }
 
 .footer {
-  border-top: 1px solid #ccc;
-}
+  border-top: 1px solid #ccc; }

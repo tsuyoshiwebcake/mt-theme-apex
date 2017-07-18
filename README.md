@@ -19,10 +19,10 @@ This theme requires:
 4. Create a site with "Apex" theme.
 
 ## For Developer
-If you want to create your own Apex theme, you can use scss files with grunt task (required sass and compass capavilities in local computer)
+If you want to create your own Apex theme, you can use scss files with npm task (required sass in local computer)
 
 ```
-cd build/ && npm install && grunt build
+cd build/ && npm install && npm run build
 ```
 
 you need to add your theme into themes/apex/static/css/stylecatcher.html
