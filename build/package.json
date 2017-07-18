@@ -5,8 +5,8 @@
   "repository": "https://github.com/movabletype/mt-theme-Apex",
   "author": "Six Apart, Ltd.",
   "scripts": {
-    "build": "node-sass scss/ --output ../themes/apex/static/css",
-    "watch": "node-sass ./scss --output ../themes/apex/static/css -watch"
+    "build": "node-sass ./scss --output ../themes/apex/static/css",
+    "watch": "node-sass ./scss --output ../themes/apex/static/css --watch"
   },
   "devDependencies": {
     "node-sass": "^4.5.3"
